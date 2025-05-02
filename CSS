@@ -1,0 +1,92 @@
+.conteiner{
+  text-align: justify;
+}
+
+.nazvanie {
+  background: blue;
+  height: 50px;
+}
+
+.menu{
+  background: #4287f5;
+  height: 80px;
+}
+
+.text{
+  float: left;
+  width: 25%;
+  height: 300px;
+  background: #859ec7;
+}
+
+.izobr{
+  float: right;
+  width: 75%;
+  height: 300px;
+  background: #134391;
+}
+
+.podval {
+  height: 40px;
+  background: #1151b8;
+}
+
+.clear{
+  clear: both;
+}
+
+nav ul{
+  width: 100%;
+  position:absolute;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+#str1{
+  background-color: red;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+nav ul li ul{
+  display: none;
+  z-index: 1;
+  background: red;
+  width: 50px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+nav ul li ul li{
+  display: block;
+}
+
+nav li:hover > ul{
+  display: block;
+  margin-right: 20px;
+}
+
+.comm{
+  background: red;
+  display: flex;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.slider{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  transition: transform 2s ease-in-out;
+}
+
+P{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
