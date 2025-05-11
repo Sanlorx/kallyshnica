@@ -1,42 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-.conteiner{
-  text-align: justify;
+   font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-.nazvanie {
-  background: blue;
-  height: 50px;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
 }
 
-.menu{
-  background: #4287f5;
-  height: 80px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #444;
+    overflow: hidden;
 }
 
-.text{
-  float: left;
-  width: 25%;
-  height: 300px;
-  background: #859ec7;
+nav ul li {
+    float: left;
 }
 
-.izobr{
-  float: right;
-  width: 75%;
-  height: 300px;
-  background: #134391;
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
 }
 
-.podval {
-  height: 40px;
-  background: #1151b8;
+nav ul li a:hover {
+    background-color: #111;
 }
 
-.clear{
-  clear: both;
+main {
+    padding: 1em;
 }
 
-nav ul{
+footer {
+    background-color: #1;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
   width: 100%;
   position:absolute;
 }
